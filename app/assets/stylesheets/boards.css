@@ -1,0 +1,80 @@
+.wrapper {
+  background-color: lightslategrey;
+  display: flex;
+}
+
+.table_side {
+  width: 650px;
+}
+
+.black-stone {
+  background-color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+}
+.white-stone {
+  background-color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.table {
+  table-layout: fixed;
+}
+
+
+
+
+
+.information_side {
+  width: calc(100vw - 650px);
+  background-color: blue;
+}
+
+#player_turn {
+  font-size: 30px;
+}
+
+#white_stone_number {
+  width: 130px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#black_stone_number {
+  width: 130px;
+  display: flex;
+}
+
+#white_num {
+  font-size: 35px;
+}
+
+#black_num {
+  font-size: 35px;
+}
+
+#result {
+  width: 250px;
+  height: 80px;
+  display: flex;
+  align-items:center;
+}
+
+#win {
+  color:red;
+  font-size: 50px;
+}
+
+#draw {
+  color:black;
+  font-size: 50px;
+}
+
+#num {
+  width: 50px;
+}
