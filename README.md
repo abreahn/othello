@@ -1,24 +1,35 @@
-# README
+# アプリケーション名
+ 
+Othello
+ 
+# アプリケーション概要
+ 
+通常のオセロです。
+ 
+# URL
+ 
+https://othello-20210409.herokuapp.com/
+ 
+# 利用方法
+ 
+通常のオセロのルールです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+石が取れないマスにも石を置けてしまうので注意してください。
 
-Things you may want to cover:
+パスは手動で行ってください。
+ 
+# 目指した課題解決
+ 
+気軽にオセロを楽しめるようにしました。
+ 
+# 要件
+ 
+対人戦機能
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+マウスをマス目にのせた時の色変更機能
+ 
+# 実装した機能についての説明
+ 
+ ゲーム画面
+[![Image from Gyazo](https://i.gyazo.com/248f14cb6e23be40e6c428e77ec92a25.gif)](https://gyazo.com/248f14cb6e23be40e6c428e77ec92a25)
+ 
