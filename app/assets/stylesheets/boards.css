@@ -1,6 +1,33 @@
+#index_body {
+  text-align: center;
+  background-color: darkseagreen;
+  background-image: url("/images/flower-back.jpeg");
+  background-size: 100% auto;
+}
+
+#title_name {
+  font-size: 200px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a {
+  font-size: 50px;
+} 
+
 .wrapper {
-  background-color: lightslategrey;
+  height: 100vh;
+  width: 100vw;
   display: flex;
+  background-image: url("/images/flower.jpeg");
+  background-size: 100% auto;
+}
+
+.wrapper_cpu {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-image: url("/images/flower2.jpeg");
+  background-size: 100% auto;
 }
 
 .table_side {
@@ -32,7 +59,8 @@
 
 .information_side {
   width: calc(100vw - 650px);
-  background-color: blue;
+  background-image: url("/images/flower.jpeg");
+  background-size: 100% auto;
 }
 
 #player_turn {
@@ -40,7 +68,7 @@
 }
 
 .stone_number {
-  width: 250px;
+  width: 300px;
   display: flex;
   margin-bottom: 10px;
   font-size: 35px;
@@ -70,4 +98,5 @@
 #num {
   font-size: 35px;
   width: 50px;
+  margin-left: 10px;
 }
