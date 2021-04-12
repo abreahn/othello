@@ -89,30 +89,29 @@
 
       <div class="infomation_side">
         <br>
-        <div id="player_turn">White turn</div>
         <br>
         <input type="button" value="Pass" id="pass" style="font-size:20px;width:60px;height:40px">
         <br>
         <br>
         <!- 石の数 ->
-        <div class="stone_number">
-          <div class="player">Player１　</div>
-          <div class="white-stone"></div>
-          <div id="white_num">
-            <div id="num">2</div>
+          <div class="stone_number">
+            <div class="player">Player</div>
+            <div class="white-stone"></div>
+            <div id="white_num">
+              <div id="num">2</div>
+            </div>
           </div>
-        </div>
-        <div class="stone_number">
-          <div class="player">Player２　</div>
-          <div class="black-stone"></div>
-          <div id="black_num">
-            <div id="num">2</div>
+          <div class="stone_number">
+            <div class="player">CPU</div>
+            <div class="black-stone"></div>
+            <div id="black_num">
+              <div id="num">2</div>
+            </div>
           </div>
-        </div>
         <br>
         <div id="result"></div>
       </div>
     </div>
-    <%= javascript_pack_tag 'pvp/application' %>
+    <%= javascript_pack_tag 'cpu/application' %>
   </body>
 </html>

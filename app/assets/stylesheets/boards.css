@@ -36,26 +36,18 @@
 }
 
 #player_turn {
-  font-size: 30px;
+  font-size: 35px;
 }
 
-#white_stone_number {
-  width: 130px;
+.stone_number {
+  width: 250px;
   display: flex;
   margin-bottom: 10px;
-}
-
-#black_stone_number {
-  width: 130px;
-  display: flex;
-}
-
-#white_num {
   font-size: 35px;
 }
 
-#black_num {
-  font-size: 35px;
+.player {
+  width: 150px;
 }
 
 #result {
@@ -76,5 +68,6 @@
 }
 
 #num {
+  font-size: 35px;
   width: 50px;
 }

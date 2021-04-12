@@ -312,7 +312,6 @@ function othello (){
       } else {
         stone = "white-stone";
       }
-      HTML = `<div class="${stone}"></div>`;
 
       //石の数
       let white_number = 0;
@@ -356,7 +355,6 @@ function othello (){
       stone = "white-stone";
       player_turn.innerHTML = "White turn";
     };
-    HTML = `<div class="${stone}"></div>`;
   });
 
   for (let i = 0; i < 64; i++) {
