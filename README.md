@@ -27,9 +27,10 @@ https://othello-20210409.herokuapp.com/
 対人戦機能
 
 マウスをマス目にのせた時の色変更機能
+
+CPU戦機能
  
 # 実装した機能についての説明
  
  ゲーム画面
-[![Image from Gyazo](https://i.gyazo.com/248f14cb6e23be40e6c428e77ec92a25.gif)](https://gyazo.com/248f14cb6e23be40e6c428e77ec92a25)
- 
+[![Image from Gyazo](https://i.gyazo.com/c5f11212ce41f34b89615c98a3e06a29.gif)](https://gyazo.com/c5f11212ce41f34b89615c98a3e06a29)
